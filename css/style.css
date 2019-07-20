@@ -1,6 +1,6 @@
 header {
     position: relative;
-    height: 40em;
+    height: 64vh;
     background-image: linear-gradient(#ff9d2f, #ff6126);
     font-family: 'Montserrat', sans-serif;
     }
@@ -27,6 +27,7 @@ header {
   header div h3 {
     color: white;
     text-align: left;
+    text-size-adjust: 6vh;
   }
 
   svg {

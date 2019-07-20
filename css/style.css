@@ -27,7 +27,7 @@ header {
   header div h3 {
     color: white;
     text-align: left;
-    text-size-adjust: 6vh;
+    font-size: 2vh;
   }
 
   svg {

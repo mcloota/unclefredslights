@@ -1,6 +1,6 @@
 header {
     position: relative;
-    height: 560px;
+    height: 600px;
     background-image: linear-gradient(#ff9d2f, #ff6126);
     font-family: 'Montserrat', sans-serif;
     font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
@@ -15,7 +15,7 @@ header {
   
   header h1 {
     color: white;
-    padding-top: 1.5em;
+    padding-top: 12vh;
     margin-bottom:0;
   }
   
@@ -144,7 +144,7 @@ body {
   
   @media (min-width: 56.25em) {
     h3 {
-      font-size: 1.75em;
+      font-size: 1em;
       /* 1.75x body copy size = 28px */
       line-height: 1.25;
     }

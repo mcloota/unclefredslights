@@ -1,6 +1,5 @@
 ### unclefredslights
-
-- I'll add notes to this if I need to. 
+** HOSTED AT: https://mcloota.github.io/unclefredslights/
 
 ### Light companies he wants:
 > company x

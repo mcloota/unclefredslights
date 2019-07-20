@@ -3,7 +3,7 @@ header {
     height: 80vh;
     background-image: linear-gradient(#ff9d2f, #ff6126);
     font-family: 'Montserrat', sans-serif;
-    font-size: calc(9px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     /* line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300))); */
     }
   

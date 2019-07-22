@@ -6,6 +6,11 @@ creamish: #d4e0da
 grayish: #9db5b2
 */
 
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
 header {
     position: relative;
     height: 600px;
@@ -110,16 +115,15 @@ h4 {
 
   * {box-sizing: border-box;}
   .wrapper {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
   }
   
   .wrapper > div {
-    border: 2px solid rgb(233,171,88);
+    border: none;
     border-radius: 5px;
-    background-color: rgba(233,171,88,.5);
+    background-color: none;
     padding: 1em;
-    color: #d9480f;
   }.wrapper {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -145,33 +149,6 @@ h4 {
   
 /* HEXAGON DIVS FOR DESCRIPTORS*/
 
-.hexagon {
-    position: relative;
-    width: 300px; 
-    height: 173.21px;
-    background-color: #3b413c;
-    margin: 86.60px 0;
-  }
-  
-  .hexagon:before,
-  .hexagon:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    border-left: 150px solid transparent;
-    border-right: 150px solid transparent;
-  }
-  
-  .hexagon:before {
-    bottom: 100%;
-    border-bottom: 86.60px solid #64C7CC;
-  }
-  
-  .hexagon:after {
-    top: 100%;
-    width: 0;
-    border-top: 86.60px solid #64C7CC;
-  }
 
   /*trial 2 hexagon*/
   .hex {
@@ -208,3 +185,19 @@ h4 {
 .hex.inner:after {
     border-top: 60px solid blue;
 }
+
+/*partners line*/
+
+h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 4vw 0 2vw; 
+    padding-left: 32%;
+ } 
+ 
+ h2 span { 
+     background:transparent; 
+     padding:0 10px; 
+ }

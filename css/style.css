@@ -28,7 +28,7 @@ header {
   }
   
   header h1 {
-    color: white;
+    color: #d4e0da;
     padding-top: 12vh;
     margin-bottom:0;
   }
@@ -36,21 +36,21 @@ header {
   header div {
     margin:2em auto 0 52vw;
     width:20%;
-    border-left: 1.5vw white solid;
+    border-left: 1.5vw #d4e0da solid;
     padding-left: .5vw;
   }
 
   header div h4 {
     text-decoration: none;
-    color: white;
+    color: #d4e0da;
     margin: 0;
 }
 h4[href^="tel"] {
-    color: white;
+    color: #d4e0da;
     text-decoration: none;  
   }
   h4[href^="mailto"] {
-    color: white;
+    color: #d4e0da;
     text-decoration: none;  
   }
 
@@ -129,7 +129,7 @@ h4 {
   }.wrapper {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 10px;
+    grid-gap: 0;
     grid-auto-rows: minmax(4vw, auto);
   }
   .biggrid {
@@ -137,21 +137,56 @@ h4 {
     grid-row: 1 / 9;
     background-image: linear-gradient(.25turn, #3b413c, #3b413c);
   }
+  .h-one {
+    grid-column: 1 / 5;
+    grid-row: 2;
+    margin:auto
+  }
+  .h-two {
+    grid-column: 5 / 9;
+    grid-row: 2;
+    margin:auto;
+  }
+  .h-three {
+    grid-column: 9 / 13;
+    grid-row: 2;
+    margin:auto;
+  }
+  .top-line {
+    width: 16em;
+    height: .1em;
+    border-bottom: .3em solid gold;
+    border-top: .3em solid gold;
+    border-radius: 50px;
+  }
+  .bottom-line {
+    width: 16em;
+    height: .1em;
+    border-bottom: .3em solid gold;
+    border-top: .3em solid gold;
+    border-radius: 50px;
+  }
+  .subtitles {
+    color: #d4e0da;
+    text-align: center;
+    font-size: 2em;
+    margin:.2em;
+  }
   .one {
-      grid-column: 2 /4;
-      grid-row: 1;
+      grid-column: 2 / 4;
+      grid-row: 3;
   }
   .two {
       grid-column: 6 / 8;
-      grid-row: 1;
+      grid-row: 3;
   }
   .three {
       grid-column: 10 / 12;
-      grid-row: 1;
+      grid-row: 3;
   }
  .four {
      grid-column: 1 / 13;
-     grid-row: 2;
+     grid-row: 4;
  }
   
 /* CIRCLE DIVS FOR DESCRIPTORS*/
@@ -177,16 +212,30 @@ h4 {
 
 /*partners line*/
 
-h2 {
-    width: 100%; 
-    text-align: center; 
-    border-bottom: 1px solid #000; 
-    line-height: 0.1em;
-    margin: 4vw 0 2vw; 
-    padding-left: 32%;
- } 
- 
- h2 span { 
-     background:transparent; 
-     padding:0 10px; 
- }
+/* .section-title { */
+    /* width: 100%;  */
+    /* text-align: center;  */
+    /* border-bottom: 1px solid #000;  */
+    /* line-height: 0.1em; */
+    /* margin: 4vw 0 2vw;  */
+    /* padding-left: 32%; */
+ /* }  */
+/*   */
+ /* .section-title span {  */
+     /* background:transparent;  */
+     /* padding:0 10px;  */
+ /* } */
+/*  */
+ .section-title { 
+   width:100%; 
+   text-align:center; 
+   border-bottom: .2em solid gold;
+   line-height:0.1em; 
+   margin:4em 0 20px; 
+} 
+.section-title span { 
+  background:#3b413c; 
+  padding:0 1em; 
+  color: #d4e0da;
+  font-size: 1.6em;
+}

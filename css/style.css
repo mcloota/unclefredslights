@@ -137,9 +137,10 @@ h4 {
     grid-column: 1 / 13;
     grid-row: 1 / 9;
     background-image: linear-gradient(.25turn, #3b413c, #3b413c);
+    align-content: center;
   }
   .one {
-    grid-column: 2 / 4;
+    grid-column: 2 / 12;
     grid-row: 2;
     margin:auto
   }
@@ -160,30 +161,35 @@ h4 {
     border-top: .3em solid gold;
     border-radius: 50px;
   } */
-  /* .bottom-line {
+  .bottom-line {
     width: 16em;
     height: .1em;
     border-bottom: .3em solid gold;
     border-top: .3em solid gold;
     border-radius: 50px;
-  } */
+    text-align: center;
+  }
   .subtitles {
     color: #3b413c;
     text-align: center;
     border-radius: 25%;
     text-shadow: 0 1em 1px #d4e0da;
+    margin-bottom: 1.2em;
   }
   .h-one {
-      grid-column: 1 / 5;
+      grid-column: 2 / 5;
       grid-row: 3;
+      margin:auto;
   }
   .h-two {
       grid-column: 5 / 9;
       grid-row: 3;
+      margin:auto;
   }
   .h-three {
-      grid-column: 9 / 13;
+      grid-column: 9 / 12;
       grid-row: 3;
+      margin:auto;
   }
  .four {
      grid-column: 1 / 13;
@@ -192,26 +198,39 @@ h4 {
 
 /* CIRCLE DIVS FOR DESCRIPTORS*/
 
+
 .circle {
-    width: 16vw;
-    height: 16vw;
+    width: 23vw;
+    height: 23vw;
     border: 1em solid #558b6e;
-    border-radius: 8vw;
+    border-radius: 50%;
     background: #3b413c;
     opacity: .4;
     align-content: center;
     display:inline-block;
     text-align: center;
     vertical-align: bottom;
-    line-height: 16vw;
+    line-height: 23vw;
 }
+
 .circle i {
-    margin-top: 3vw;
+    margin-top: 6vw;
     opacity: 1;
     color: #d4e0da;
 }
 
+@keyframes fade-in {
+  from {opacity: 0; transform: scale(.7,.7)}
+  to {opacity: .4;}
+}
 
+.fade-in-element {
+  animation: fade-in 3.6s;
+}
+
+.hidden {
+  opacity: 0;
+}
 
 /*partners line*/
 

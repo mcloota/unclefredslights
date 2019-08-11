@@ -31,4 +31,14 @@ var animateHTML = function() {
   animateHTML().init();
 
 
+  
+console.log('sliiiiiide to the left');
+
+
+
+console.log('sliiiiide to the right');
+
+
+
+console.log('everybody clap yo handzz');
 

@@ -235,7 +235,7 @@ h2 {
   font-size: 3em;
   color: #9db5b2;
 }
-p {
+.information {
   font-size: 1.4em;
   color: #d4e0da;
 }
@@ -245,7 +245,7 @@ p {
   border-radius: 10%;
   border: 1vw #d4e0da solid;
   font-size: 2em;
-  margin-top:1em;
+  margin-top:2em;
 }
 .more-info:hover {
   cursor: pointer;
@@ -263,7 +263,7 @@ p {
    text-align:center; 
    border-bottom: .2em solid gold;
    line-height:0.1em; 
-   margin:4em 0 20px; 
+   margin:3em 0 20px; 
 } 
 .section-title span { 
   background:#3b413c; 
@@ -358,14 +358,13 @@ p {
 } */
 
 .contact {
-  grid-row: 26;
+  grid-row: 26 / 30;
   grid-column: 2 / 16;
 }
 
 .reviews-line {
   grid-column: 5 / 13;
   grid-row: 14;
-  border-bottom: .2em solid #d4e0da;
 }
 
 .review-author {
@@ -374,14 +373,78 @@ p {
   color: gold;
 }
 
+.address {
+  margin-top: 4em;
+  margin-left: 5vw;
+  grid-row: 27;
+  grid-column: 3 / 15;
+  width: 40%;
+  float:left;
+  background-color: #558b6e;
+  border-radius: 10px;
+  /* opacity:.6; */
+  width:40%;
+  height:24em;
+}
+.contact-us {
+  margin-top: 4em;
+  margin-right: 5vw;
+  float:right;
+  background-color: #558b6e;
+  border-radius: 10px;
+  /* opacity:.6; */
+  width:40%;
+  height:24em;
+}
+h4 {
+  padding: -1em 1vw 8em 2vw;
+  float: left;
+  margin: 3em 1vw 2em 0;
+  margin-right: auto;
+  color:#3b413c;
+}
 
+.freds-photo {
+  background-color: aquamarine;
+  float:left;
+  height:120px;
+  width: 120px;
+  border-radius: 120px;
+  margin:2em;
+}
 
+h3 {
+  padding: 1em 1vw 1em 2vw;
+  color: #d4e0da;
+}
+.contact-paragraph {
+  color: #d4e0da;
+  margin-top:1em;
+  float:left;
+  padding-left: 3.5em;
+}
 
-
-
-
-
-
+fieldset {
+  color: gold;
+  font-size: 1.2em;
+  margin: 1em;
+  padding-left: 1.2em;
+  text-align: center;
+}
+form {
+  padding-top: 1em;
+}
+.submit {
+  background-color: #d4e0da;
+  border-radius: 10px;
+  width:60%;
+  height:4em;
+  font-style: bold;
+}
+.submit:hover {
+  background-color: gold;
+  cursor: pointer;
+}
 
 
 
